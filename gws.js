@@ -1,5 +1,5 @@
-let points =0 ;
-let cpoints =0 ;
+var points =0 ;
+var cpoints =0 ;
 let i =0;
 let ids = [1,2,3];
 let op = document.getElementById('point');
