@@ -13,6 +13,8 @@ function generate()
 }
 const reset = ()=>
 {
+    points =0;
+    cpoints =0;
     op.innerHTML = 0;
     cp.innerHTML = 0;
 }
