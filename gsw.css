@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body
+{
+    background-color: black;
+    color: white;
+}
+.backball
+{
+    height:390px;
+    width: 100%;
+    border-radius: 5%;
+    background-color: rgb(80, 243, 235);
+    position: relative;
+    transform: translate(0%,-60%);
+}
+.ball2
+{
+    height: 350px;
+    width: 100%;
+    border-radius: 30%;
+    background-color: rgb(232, 248, 19);
+}
+h1
+{
+    font-size: 30px;
+    text-align: center;
+    transform: translate(0%,-200%);
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+}
+p 
+{
+    color: white;
+    text-align: center;
+}
+li
+{
+    text-align: center;
+}
+.st
+{
+    font-size: 20px;
+    margin-left: 50%;
+    margin-bottom: 0px;
+    transform: translate(-50%,0%);
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    color: blue;
+    font-weight: 600;
+}
+.st:hover
+{
+    background-color: rgb(225, 238, 141);
+}
+.rt
+{
+    font-size: 20px;
+    margin-left: 50%;
+    margin-bottom: 0px;
+    transform: translate(-50%,0%);
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 166, 0);
+    color: blue;
+    font-weight: 600;
+}
+.rt:hover
+{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.choice
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+button
+{
+    height: 50px;
+    width: 50px;
+    margin: 12px;
+    font-size: 30px;
+    border-radius: 40%;
+    transition: 0.5s;
+}
+button:hover
+{
+    background: transparent;
+    border:1px solid red;
+}
+.p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-200%);
+    font-size: 25px;
+    width: 100%;
+}
+#point, #cpoint 
+{
+    margin-left: 20px;
+}

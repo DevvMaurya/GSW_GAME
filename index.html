@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gsw.css">
+    <title>GSW_Game</title>
+</head>
+<body>  
+    <div class="backball">
+        <div class="ball2">
+        </div>
+        <h1>SNAk, WaTER, GuN </h1>
+    </div>
+    <div class="p">
+      <p>YOU POINTS:  <span id="point">0</span></p>
+      <p>COMPUTER POINTS:  <span id="cpoint">0</span></p>
+    </div>
+    <p>This game is between you and the computer.. <br>
+        
+        <li> You have to choose one of the below. If your chosen is power than the computer chosen then you may win.</li><li> There are many rounds.</li> <li>FOR EVERY ROUND YOU NEED TO PRESS START BUTTON.</li><button class="st" onclick="generate()">START</button><button class="rt" onclick="reset()">RESTART</button> </p>
+    <section class="choice">
+        <button class="ch" id="snak" onclick="checks()">🐍</button>
+        <button class="ch" id="gun" onclick="checkg()" >🔫</button>
+        <button class="ch" id="water" onclick="checkw()">🌊</button>
+    </section>
+</body>
+<script src="gws.js"></script>
+</html>
